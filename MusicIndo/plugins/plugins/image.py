@@ -2,7 +2,7 @@ from pyrogram.types import InputMediaPhoto
 from config import BANNED_USERS
 from MusicIndo import app
 from pyrogram import filters
-from TheApi import api
+from SafoneAPI import api
 
 
 @app.on_message(filters.command(["image"], prefixes=["/", "!", "."]) & ~BANNED_USERS)
