@@ -1,6 +1,6 @@
 from pyrogram import filters
 from MusicIndo import app
-from TheApi import api
+from SafoneAPI import api
 
 
 @app.on_message(filters.command("hastag"))
